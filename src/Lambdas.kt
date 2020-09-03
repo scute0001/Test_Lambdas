@@ -27,7 +27,7 @@ fun main(args: Array<String>){
         return result
     }
     convert(20.0) { it * 1.8 + 32}
-    convertFive { x -> x * 1.8 + 32 }
+//    convertFive { x -> x * 1.8 + 32 }
 
 
 }
