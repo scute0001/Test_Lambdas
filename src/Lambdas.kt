@@ -33,7 +33,6 @@ fun combine(lambda1: DoubleConversion,
 
 fun main(args: Array<String>){
 
-
 //    var addFive = { x: Int -> x + 5 }
 //    println("Pass 6 to addFive: ${addFive(6)}")
 //

@@ -1,3 +1,5 @@
+package com.scute.lambda
+
 data class Grocery(val name: String,
                    val category: String,
                    val unit: String,
@@ -20,7 +22,7 @@ fun main(args: Array<String>){
         Grocery("Olive oil", "Pantry", "Bottle", 6.0),
         Grocery("Ice cream", "Frozen", "Pack", 3.0))
     println("Expensive ingredients:")
-    search(groceries) {i: Grocery -> i.unitPrice > 5.0}
+    search(groceries) {/*i: Grocery -> i*/it.unitPrice > 5.0}
     println("All vegetables:")
     search(groceries) {i: Grocery -> i.category == "Vegetable"}
     println("All Packs:")
